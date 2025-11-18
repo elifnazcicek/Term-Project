@@ -30,17 +30,4 @@ def assign_table(tables: list, table_number: int, party_size: int):
             return table
     return None
 
-def release_table(tables: list, table_number: int) -> bool:
-    for table in tables:
-        if table["number"] == table_number:
-            table["status"] = "free"
-            table["party_size"] = 0
-            return True
-    return False
-
-def update_server(tables: list, table_number: int, server_name: str) -> dict:
-    for table in tables:
-        if table["number"] == table_number:
-            table["server"] = server_name
-            return table
-    return None
+#release_table ve update_server daha kodlamadım
