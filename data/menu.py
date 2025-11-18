@@ -1,16 +1,16 @@
 import json
 
-MENU_FILE = "data/menu.json"
+menu_file = "data/menu.json"
 
 def load_menu():
     try:
-        with open(MENU_FILE, "r") as f:
+        with open(menu_file, "r") as f:
             return json.load(f)
     except FileNotFoundError:
         return {"items": {}}
 
 def save_menu(menu):
-    with open(MENU_FILE, "w") as f:
+    with open(menu_file, "w") as f:
         json.dump(menu, f, indent=2)
 
 def add_menu_item(menu, name, category, price):
