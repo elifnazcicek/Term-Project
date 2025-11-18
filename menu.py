@@ -23,15 +23,4 @@ def add_menu_item(menu, name, category, price):
     }
     return menu["items"][new_id]
 
-def update_menu_item(menu, item_id, updates):
-    if item_id not in menu["items"]:
-        return None
-    menu["items"][item_id].update(updates)
-    return menu["items"][item_id]
-
-def filter_menu(menu, category):
-    result = []
-    for item in menu["items"].values():
-        if item["category"] == category:
-            result.append(item)
-    return result
+#update_menu_item ve filter_menu daha kodlamadım
