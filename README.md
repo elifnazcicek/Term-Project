@@ -1,6 +1,4 @@
-# Term-Project
-Restaurant Table and Order Manager
-
+# CSE101 Term-Project
 # Restaurant Table & Order Manager
 
 ## Installation
