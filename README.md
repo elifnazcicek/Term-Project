@@ -1,5 +1,4 @@
-# CSE101 Term-Project
-# Restaurant Table & Order Manager
+# CSE101 Term-Project: Restaurant Table & Order Manager
 
 ## Installation
 - Python 3.10+
