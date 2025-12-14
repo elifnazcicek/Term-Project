@@ -1,6 +1,27 @@
 {
-    "starters": {},
-    "mains": {},
+    "starters": {
+        "S101": {
+            "name": "Soup of the Day",
+            "price": 5.99,
+            "vegetarian": true,
+            "available": true
+        }
+    },
+    "mains": {
+        "M201": {
+            "name": "Cheeseburger",
+            "price": 12.99,
+            "vegetarian": false,
+            "available": true
+        }
+    },
     "desserts": {},
-    "beverages": {}
+    "beverages": {
+        "B301": {
+            "name": "Coffee",
+            "price": 2.99,
+            "vegetarian": true,
+            "available": true
+        }
+    }
 }
