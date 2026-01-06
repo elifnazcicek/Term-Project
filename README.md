@@ -4,9 +4,6 @@
 - Python 3.10+
 - No external dependencies
 
-## How to Run
-python main.py
-
 ## Roles
 - Host: assign and release tables
 - Server: take orders and close bills
@@ -14,10 +11,6 @@ python main.py
 
 ## Persistence
 Data is saved in /data as JSON files.
-
-## Testing
-Run:
-pytest
 
 ## Sample Workflow
 1. Assign table
