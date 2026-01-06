@@ -2,7 +2,6 @@
 
 ## Installation
 - Python 3.10+
-- No external dependencies
 
 ## Roles
 - Host: assign and release tables
